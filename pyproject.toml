@@ -36,7 +36,7 @@ full = ["scipy>=1.11", "scikit-learn>=1.4"]
 retentionlab = "retentionlab.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/yourname/retentionlab"
+Homepage = "https://github.com/joshua12312617/retentionlab"
 
 [tool.setuptools.packages.find]
 include = ["retentionlab*"]
