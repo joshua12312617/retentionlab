@@ -1,0 +1,9 @@
+# Core dependencies (required)
+numpy>=2.0
+pandas>=2.2
+matplotlib>=3.8
+seaborn>=0.13
+
+# Optional — used automatically when installed:
+# scipy>=1.11         (exact p-values in the effect-size table)
+# scikit-learn>=1.4   (random forest / gradient boosting join the comparison)

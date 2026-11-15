@@ -1,0 +1,29 @@
+======================================================================
+RAW DATA PROFILE
+======================================================================
+Shape:        6,015 rows x 14 columns
+Memory:       2062.1 KiB
+Duplicates:   15 exact duplicate rows
+
+Missing values:
+  monthly_charge          181  (3.0%)
+  support_tickets         121  (2.0%)
+  watch_hours             417  (6.9%)
+
+Column summary:
+  column               dtype       unique  notes
+  customer_id          str           6000  -
+  age                  float64        520  -
+  region               str              7  -
+  signup_channel       str              8  -
+  plan                 str              6  -
+  tenure_months        int64           62  -
+  monthly_charge       float64       1275  -
+  discount_rate        float64          4  -
+  logins_last_month    int64           24  -
+  support_tickets      float64          8  -
+  watch_hours          float64        328  -
+  churned              int64            2  -
+  risk_score           float64       6000  suspicious |r| with target = 0.89
+  data_source          str              1  CONSTANT
+======================================================================

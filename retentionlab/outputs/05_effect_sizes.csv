@@ -1,0 +1,11 @@
+feature,kind,effect,value,abs_value
+support_tickets,numeric,point-biserial r,0.2593,0.2593
+logins_last_month,numeric,point-biserial r,-0.1972,0.1972
+tenure_months,numeric,point-biserial r,-0.146,0.146
+watch_hours,numeric,point-biserial r,-0.1391,0.1391
+age,numeric,point-biserial r,-0.129,0.129
+plan,categorical,Cramér's V,0.128,0.128
+monthly_charge,numeric,point-biserial r,-0.1186,0.1186
+region,categorical,Cramér's V,0.1037,0.1037
+signup_channel,categorical,Cramér's V,0.0676,0.0676
+discount_rate,numeric,point-biserial r,0.0295,0.0295

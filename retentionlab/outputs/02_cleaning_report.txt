@@ -1,0 +1,23 @@
+======================================================================
+CLEANING REPORT
+======================================================================
+Rows:           6,015 -> 5,991
+Duplicates:     15 removed
+Invalid rows:   9 dropped (age <= 0 or > 100, negative tenure)
+Winsorized:     56 watch_hours values capped at the 99% quantile
+
+Imputed values (median for skewed numerics, mode otherwise):
+  monthly_charge          180
+  support_tickets         120
+  watch_hours             416
+
+Standardized labels:
+  plan                    467 values normalized
+  region                  464 values normalized
+  signup_channel          293 values normalized
+
+Dropped columns:
+  customer_id          identifier (high cardinality)
+  risk_score           leakage: |r| with target = 0.89
+  data_source          constant column
+======================================================================
