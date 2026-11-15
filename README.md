@@ -100,7 +100,7 @@ saved customer, the best threshold yields **$27.07 expected profit per
 customer** — the pipeline finds the profit-maximizing operating point instead
 of stopping at accuracy.
 
-## Features worth talking about in an interview
+## Features worth talking about 
 
 - **Honest splits:** scaling statistics are fit on the training split only.
 - **Leakage detection:** numeric features with |corr| ≥ 0.6 against the
